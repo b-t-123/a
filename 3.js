@@ -1,0 +1,3 @@
+document.write("<div id='adsense' style='position: absolute; top: -10000px; left: -10000px; height: 100px;''></div>");
+document.write("<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','anonymousGd');</script>");
+document.write("<script>anonymousGd('create','UA-53401626-1','auto');var testElement=document.getElementById('adsense');var isAdblock=(testElement&&testElement.clientHeight!=100);anonymousGd('send','pageview',{'dimension1':isAdblock.toString(),'dimension2': '3'});</script>");
